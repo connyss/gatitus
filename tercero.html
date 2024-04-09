@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FP&#128062;</title>
+    <title>Contacto FP&#128062;</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-
+    
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div>
         <a class="navbar-brand" href="#">Fundación Patitas&#128062;</a>
@@ -17,13 +17,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                            <a class="nav-link" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="#">Gatitos Disponibles</a>
+                            <a class="nav-link" href="#">Gatitos Disponibles</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="segundo.html">Adoptar</a>
+                            <a class="nav-link" href="segundo.html">Adoptar</a>
                 </li>
                 <li class="nav-item">
                         <a class="nav-link" href="#">Contacto</a>
@@ -32,16 +32,17 @@
         </div>
     </div>
 </nav>   
-  
+      
 </body>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-.container {
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
@@ -49,19 +50,41 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-h2 {
-    text-align: center;
-}
-label, input, textarea {
-    display: block;
-    margin-bottom: 15px;
-}
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
+        h1 {
+            color: #333;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    
 button {
     padding: 10px 20px;
     background-color: #007bff;
@@ -73,7 +96,7 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-</style>
+    </style>
 </head>
 <style>
     body {
@@ -84,26 +107,24 @@ button:hover {
         background-repeat: no-repeat; 
     }
     </style>
+<body>
+
 <div class="container">
-<h2>Formulario adopción&#128062;</h2>
-<form action="procesar_formulario.php" method="post">
+<h2>¡Contáctanos!&#128062;</h2>
+<form action="#" method="post">
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" name="nombre" required>
-
-    <label for="email">Correo Electrónico:</label>
+        
+    <label for="email">Email:</label>
     <input type="email" id="email" name="email" required>
-
-    <label for="mensaje">¿Por qué desea adoptar?:</label>
-    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-
-    <button type="submit">Enviar formulario</button>
+        
+    <label for="mensaje">Cuéntanos tu duda:</label>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
     <br>
     <br>
-    <a href="gatitus/Menu.html"><button type="button" >Volver</button></a>
-
-</form>   
-</div> 
-
+    <a href="Menu.html"><button type="submit" >Enviar</button></a>
+</form>
+</div>
 
 </body>
 </html>
